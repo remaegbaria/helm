@@ -8,9 +8,10 @@ this code deploy and run WordPress with helm.
 ```bash
 helm repo add bitnami https://charts.bitnami.com/bitnami
 ```
----
 
 ![image](https://github.com/remaegbaria/helm/blob/main/add%20repo.png)
+
+---
 
 #### Install the chart with the release name my-release with adding smtpHost parametre:
 ```bash
