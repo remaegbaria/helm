@@ -4,7 +4,7 @@ this code deploy and run WordPress with helm.
 
 ## Usage
 
-#### Add Helm repo:
+#### Add Helm repo :
 ```bash
 helm repo add bitnami https://charts.bitnami.com/bitnami
 ```
@@ -13,7 +13,7 @@ helm repo add bitnami https://charts.bitnami.com/bitnami
 
 ---
 
-#### Install the chart with the release name my-release with adding smtpHost parametre:
+#### Install the chart with the release name my-release with adding smtpHost parametre :
 ```bash
 helm install my-release bitnami/wordpress --set smtpHost=smtp.gmail.com
 ```
